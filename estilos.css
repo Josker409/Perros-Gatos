@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+}
+*{
+    color: snow;
+}
+/* manera correcta de hacer un menu responsive <3 */
+.navbar {
+    background-color: black; /* Color de fondo de la barra de navegación */
+    padding: 20px; /* Espacio de relleno interno de la barra de navegación */
+}
+nav{
+    position: fixed;
+}
+.navbar-brand {
+    font-size: 14px; /* Tamaño de fuente del logotipo */
+    font-weight: bolder; /* Peso de la fuente del logotipo */
+}
+
+.navbar-brand .logo {
+    color: azure; /* Color del texto del logotipo */
+    text-align: left;
+    margin-right: 10px;
+    font-weight: 10px;
+}
+.navbar-brand .logo span {
+    color: chocolate; /* Color del texto destacado del logotipo */
+}
+
+.navbar-nav .nav-item {
+    margin: 0; /* Espacio entre elementos del menú */
+}
+
+.navbar-nav .nav-link {
+    color: azure; /* Color del texto del enlace */
+    font-weight: bold; /* Peso de la fuente del enlace */
+}
+
+.navbar-nav .nav-link:hover {
+    color: burlywood; /* Color del texto del enlace al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    border-color: #333333; /* Color del icono del botón desplegable */
+}
+
+.nav-item{
+    margin: 100px;
+}
+/* hast aqui :* */
+
+p{
+    color: azure;
+}
+.cuadrado{
+    height: 280px;
+    width: 180px;
+    /* background-color: orange; */
+    /* border: 2px solid white; */
+    font-size: 30px;
+    text-align: center;
+    color: wheat;
+    text-transform: uppercase;
+}
+
+#c1{
+    position: fixed;
+    top: 140px;
+    left: 820px;
+}
+#c2{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+#c3{
+    position: fixed;
+    top: 340px;
+    left: 400px;
+}
+#c4{
+    position: relative;
+    top: 400px;
+    left: 640px;
+}
+#c5{
+    position: fixed;
+    top: 180px;
+    left: 180px;
+}
+#c6{
+    position: relative;
+    top: 160px;
+    left: 400px;
+}
+#c7{
+    position: fixed;
+    top: 220px;
+    left: 640px;
+}
+#c8{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+#c9{
+    position: fixed;
+    top: 160px;
+    left: 400px;
+}
+#c10{
+    position: relative;
+    top: 400px;
+    left: 640px;
+}
+#c11{
+    position: sticky;
+    top: 240px;
+    left: 840px;
+}
+#c12{
+    position: relative;
+    top: 10px;
+    left: 400px;
+
+}
+
+
+h2{
+    margin-left: 20px;
+}
+li{
+    color: burlywood;
+    margin-left: 40px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    height: 150px;
+}
+
+footer p{
+    margin-bottom: 20px;
+    color: azure;
+}
+
+footer .redes a{
+    color: azure; 
+    text-decoration: none;
+}
+
+footer .redes i{
+    color: azure;
+    font-style: 50px;
+}
+.correo{
+    margin: 10px;
+}
+.linkedin{
+    margin: 20px;
+}
+.github{
+    margin: 20px;
+}
+.copyright{
+    margin: 20px;
+    text-align: center;
+    position: static;
+}
