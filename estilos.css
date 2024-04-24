@@ -4,6 +4,8 @@ body{
 *{
     color: snow;
 }
+
+
 /* manera correcta de hacer un menu responsive <3 */
 .navbar {
     background-color: black; /* Color de fondo de la barra de navegación */
@@ -16,7 +18,6 @@ nav{
     font-size: 14px; /* Tamaño de fuente del logotipo */
     font-weight: bolder; /* Peso de la fuente del logotipo */
 }
-
 .navbar-brand .logo {
     color: azure; /* Color del texto del logotipo */
     text-align: left;
@@ -26,16 +27,13 @@ nav{
 .navbar-brand .logo span {
     color: chocolate; /* Color del texto destacado del logotipo */
 }
-
 .navbar-nav .nav-item {
     margin: 0; /* Espacio entre elementos del menú */
 }
-
 .navbar-nav .nav-link {
     color: azure; /* Color del texto del enlace */
     font-weight: bold; /* Peso de la fuente del enlace */
 }
-
 .navbar-nav .nav-link:hover {
     color: burlywood; /* Color del texto del enlace al pasar el cursor */
 }
@@ -43,113 +41,87 @@ nav{
 .navbar-toggler-icon {
     border-color: #333333; /* Color del icono del botón desplegable */
 }
-
 .nav-item{
     margin: 100px;
 }
 /* hast aqui :* */
 
-p{
-    color: azure;
-}
-.cuadrado{
-    height: 280px;
-    width: 180px;
-    /* background-color: orange; */
-    /* border: 2px solid white; */
-    font-size: 30px;
-    text-align: center;
-    color: wheat;
-    text-transform: uppercase;
-}
 
-#c1{
-    position: fixed;
-    top: 140px;
-    left: 820px;
+.galeria {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 20px);
+    grid-template-areas: "----  img2 img6 img4 img3" " img1 img2 img5 img4 img8" " img1 img7 img5 img9 img9";
+    grid-gap: 10px;
+    padding: 10px;
 }
-#c2{
-    position: relative;
-    top: 20px;
-    left: 60px;
+.item {
+    border: 4px solid #F8FFE5;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
 }
-#c3{
-    position: fixed;
-    top: 340px;
-    left: 400px;
+.item:hover {
+    filter: grayscale(50%);
 }
-#c4{
-    position: relative;
-    top: 400px;
-    left: 640px;
+.item1 {
+    grid-area: img1;
+    background-image: url(img/IMG-20220814-WA0015.jpg);
 }
-#c5{
-    position: fixed;
-    top: 180px;
-    left: 180px;
+.item2 {
+    grid-area: img2;
+    background-image: url(img/IMG-20221003-WA0007.jpeg);
 }
-#c6{
-    position: relative;
-    top: 160px;
-    left: 400px;
+.item3 {
+    grid-area: img3;
+    background-color: #131B23;
 }
-#c7{
-    position: fixed;
-    top: 220px;
-    left: 640px;
+.item4 {
+    grid-area: img4;
+    background-image: url(img/IMG-20230715-WA0014.jpg);
 }
-#c8{
-    position: relative;
-    top: 20px;
-    left: 40px;
+.item5 {
+    grid-area: img5;
+    background-image: url(img/IMG-20231219-WA0051.jpg);
 }
-#c9{
-    position: fixed;
-    top: 160px;
-    left: 400px;
+.item6 {
+    grid-area: img6;
+    background-color: #F374AE;
 }
-#c10{
-    position: relative;
-    top: 400px;
-    left: 640px;
+.item7 {
+    grid-area: img7;
+    background-color: #F8FFE5;
 }
-#c11{
-    position: sticky;
-    top: 240px;
-    left: 840px;
+.item8 {
+    grid-area: img8;
+    background-color: #48A9A6;
 }
-#c12{
-    position: relative;
-    top: 10px;
-    left: 400px;
-
+.item9 {
+    grid-area: img9;
+    background-image: url(img/IMG_20231103_151828.jpg);
 }
 
 
-h2{
-    margin-left: 20px;
+h1{
+    margin-left: 70px;
 }
-li{
-    color: burlywood;
-    margin-left: 40px;
-}
+
 
 footer{
     padding: 20px;
     text-align: center;
     height: 150px;
 }
-
 footer p{
     margin-bottom: 20px;
     color: azure;
 }
-
 footer .redes a{
     color: azure; 
     text-decoration: none;
 }
-
 footer .redes i{
     color: azure;
     font-style: 50px;
@@ -161,10 +133,108 @@ footer .redes i{
     margin: 20px;
 }
 .github{
-    margin: 20px;
+    margin: 10px;
 }
 .copyright{
     margin: 20px;
     text-align: center;
     position: static;
+}
+
+
+@media only screen and (min-width: 360px) {
+    h1{
+        margin-left: 100px;
+    }
+    .galeria {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 80px);
+    }
+}
+@media only screen and (min-width: 420px) {
+    h1{
+        margin-left: 120px;
+    }
+}
+@media only screen and (min-width: 520px) {
+    h1{
+        margin-left: 160px;
+    }
+}
+@media only screen and (min-width: 550px) {
+    h1{
+        margin-left: 180px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    h1{
+        margin-left: 200px;
+    }
+    .galeria {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 100px);
+    }
+}
+@media only screen and (min-width: 640px) {
+    h1{
+        margin-left: 220px;
+    }
+}
+@media only screen and (min-width: 680px) {
+    h1{
+        margin-left: 240px;
+    }
+    .galeria {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 100px);
+    }
+}
+@media only screen and (min-width: 740px) {
+    h1{
+        margin-left: 280px;
+    }
+}
+@media only screen and (min-width: 820px) {
+    h1{
+        margin-left: 320px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    h1{
+        margin-left: 340px;
+    }
+    .galeria {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 120px);
+    }
+}
+@media only screen and (min-width: 980px) {
+    h1{
+        margin-left: 360px;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    h1{
+        margin-left: 380px;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    h1{
+        margin-left: 420px;
+    }
+}
+@media only screen and (min-width: 1180px) {
+    h1{
+        margin-left: 460px;
+    }
+}
+@media only screen and (min-width: 1220px) {
+    h1{
+        margin-left: 500px;
+    }
+}
+@media only screen and (min-width: 1260px) {
+    h1{
+        margin-left: 560px;
+    }
 }
