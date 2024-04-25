@@ -141,6 +141,68 @@ footer .redes i{
     position: static;
 }
 
+.row{
+    margin-left: 10px;
+}
+img{
+    margin-left: 40px;
+}
+.rectangulo1{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #aafffc);
+}
+.rectangulo2{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #aafffc);
+}
+.rectangulo3{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #aafffc);
+}
+.rectangulo4{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #dffaf9);
+}
+.rectangulo5{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #c6fffd);
+}
+.rectangulo6{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset chocolate;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #48A9A6, #dffffe);
+}
+
+
 
 @media only screen and (min-width: 360px) {
     h1{
@@ -150,23 +212,63 @@ footer .redes i{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 80px);
     }
+    .row{
+        margin-left: 20px;
+    }
+    img{
+        margin-left: 50px;
+    }
+
 }
 @media only screen and (min-width: 420px) {
     h1{
         margin-left: 120px;
+    }
+    .row{
+        margin-left: 30px;
+    }
+    img{
+        margin-left: 60px;
     }
 }
 @media only screen and (min-width: 520px) {
     h1{
         margin-left: 160px;
     }
+    .row{
+        margin-left: 60px;
+    }
+    img{
+        margin-left: 90px;
+    }
 }
 @media only screen and (min-width: 550px) {
     h1{
         margin-left: 180px;
     }
+    .row{
+        margin-left: 80px;
+    }
+    img{
+        margin-left: 110px;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .navbar-brand .logo span {
+        margin-right: 280px;
+    }
+    .row{
+        margin-left: 40px;
+    }
+    img{
+        margin-left: 30px;
+    }
+    
 }
 @media only screen and (min-width: 600px) {
+    .navbar-brand .logo span {
+        margin-right: 300px;
+    }
     h1{
         margin-left: 200px;
     }
@@ -174,13 +276,26 @@ footer .redes i{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 100px);
     }
+
 }
 @media only screen and (min-width: 640px) {
+    .navbar-brand .logo span {
+        margin-right: 340px;
+    }
     h1{
         margin-left: 220px;
     }
+    .row{
+        margin-left: 60px;
+    }
+    img{
+        margin-left: 20px;
+    }
 }
 @media only screen and (min-width: 680px) {
+    .navbar-brand .logo span {
+        margin-right: 380px;
+    }
     h1{
         margin-left: 240px;
     }
@@ -188,18 +303,45 @@ footer .redes i{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 100px);
     }
+    .row{
+        margin-left: 60px;
+    }
+    img{
+        margin-left: 30px;
+    }
 }
 @media only screen and (min-width: 740px) {
+    .navbar-brand .logo span {
+        margin-right: 440px;
+    }
     h1{
         margin-left: 280px;
     }
+    .row{
+        margin-left: 70px;
+    }
+    img{
+        margin-left: 40px;
+    }
 }
 @media only screen and (min-width: 820px) {
+    .navbar-brand .logo span {
+        margin-right: 480px;
+    }
     h1{
         margin-left: 320px;
     }
+    .row{
+        margin-left: 80px;
+    }
+    img{
+        margin-left: 100px;
+    }
 }
 @media only screen and (min-width: 900px) {
+    .navbar-brand .logo span {
+        margin-right: 580px;
+    }
     h1{
         margin-left: 340px;
     }
@@ -207,15 +349,39 @@ footer .redes i{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 120px);
     }
+    .row{
+        margin-left: 80px;
+    }
+    img{
+        margin-left:120px;
+    }
 }
 @media only screen and (min-width: 980px) {
+    .navbar-brand .logo span {
+        margin-right: 640px;
+    }
     h1{
         margin-left: 360px;
     }
+    .row{
+        margin-left: 100px;
+    }
+    img{
+        margin-left: 140px;
+    }
 }
 @media only screen and (min-width: 1080px) {
+    .navbar-brand .logo span {
+        margin-right: 740px;
+    }
     h1{
         margin-left: 380px;
+    }
+    .row{
+        margin-left: 100px;
+    }
+    img{
+        margin-left: 160px;
     }
 }
 @media only screen and (min-width: 1140px) {
