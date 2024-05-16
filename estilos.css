@@ -108,6 +108,90 @@ h1{
     margin-left: 70px;
 }
 
+hr{
+    color: azure;
+}
+
+h2{
+    margin-left: 20px;
+}
+li{
+    color: burlywood;
+    margin-left: 40px;
+}
+
+.autor{
+    margin-left: 80px;
+}
+.lista{
+    margin-left: 40px;
+}
+
+
+.rectangulo1{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset ;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(0,0,0);
+}
+.rectangulo2{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(255,250,250);
+}
+.rectangulo3{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(210,105,30);
+}
+.rectangulo4{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: rgb(222,184,135);
+}
+.rectangulo5{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: #F8FFE5;
+}
+.rectangulo6{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: #131B23;
+}
+.rectangulo7{
+    margin-block-start: 8px;
+    height: 16px;
+    width: 100px;
+    border: 2px outset;
+    margin-right: 40px;
+    margin-left: 100px;
+    background: #48A9A6;
+}
+
 
 footer{
     padding: 20px;
@@ -141,65 +225,8 @@ footer .redes i{
     position: static;
 }
 
-.row{
-    margin-left: 10px;
-}
 img{
     margin-left: 40px;
-}
-.rectangulo1{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #aafffc);
-}
-.rectangulo2{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #aafffc);
-}
-.rectangulo3{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #aafffc);
-}
-.rectangulo4{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #dffaf9);
-}
-.rectangulo5{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #c6fffd);
-}
-.rectangulo6{
-    margin-block-start: 8px;
-    height: 16px;
-    width: 100px;
-    border: 2px outset chocolate;
-    margin-right: 40px;
-    margin-left: 100px;
-    background: linear-gradient(to right, #48A9A6, #dffffe);
 }
 
 
@@ -212,9 +239,6 @@ img{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 80px);
     }
-    .row{
-        margin-left: 20px;
-    }
     img{
         margin-left: 50px;
     }
@@ -224,9 +248,6 @@ img{
     h1{
         margin-left: 120px;
     }
-    .row{
-        margin-left: 30px;
-    }
     img{
         margin-left: 60px;
     }
@@ -234,9 +255,6 @@ img{
 @media only screen and (min-width: 520px) {
     h1{
         margin-left: 160px;
-    }
-    .row{
-        margin-left: 60px;
     }
     img{
         margin-left: 90px;
@@ -246,9 +264,6 @@ img{
     h1{
         margin-left: 180px;
     }
-    .row{
-        margin-left: 80px;
-    }
     img{
         margin-left: 110px;
     }
@@ -256,9 +271,6 @@ img{
 @media only screen and (min-width: 576px) {
     .navbar-brand .logo span {
         margin-right: 280px;
-    }
-    .row{
-        margin-left: 40px;
     }
     img{
         margin-left: 30px;
@@ -285,9 +297,6 @@ img{
     h1{
         margin-left: 220px;
     }
-    .row{
-        margin-left: 60px;
-    }
     img{
         margin-left: 20px;
     }
@@ -303,9 +312,6 @@ img{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 100px);
     }
-    .row{
-        margin-left: 60px;
-    }
     img{
         margin-left: 30px;
     }
@@ -317,9 +323,6 @@ img{
     h1{
         margin-left: 280px;
     }
-    .row{
-        margin-left: 70px;
-    }
     img{
         margin-left: 40px;
     }
@@ -330,9 +333,6 @@ img{
     }
     h1{
         margin-left: 320px;
-    }
-    .row{
-        margin-left: 80px;
     }
     img{
         margin-left: 100px;
@@ -349,9 +349,6 @@ img{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 120px);
     }
-    .row{
-        margin-left: 80px;
-    }
     img{
         margin-left:120px;
     }
@@ -363,9 +360,6 @@ img{
     h1{
         margin-left: 360px;
     }
-    .row{
-        margin-left: 100px;
-    }
     img{
         margin-left: 140px;
     }
@@ -376,9 +370,6 @@ img{
     }
     h1{
         margin-left: 380px;
-    }
-    .row{
-        margin-left: 100px;
     }
     img{
         margin-left: 160px;
