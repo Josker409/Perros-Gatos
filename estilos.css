@@ -103,6 +103,10 @@ nav{
     background-image: url(img/IMG_20231103_151828.jpg);
 }
 
+.carousel-item{
+    width: 330px;
+    margin-left: 230px;
+}
 
 h1{
     margin-left: 70px;
@@ -269,18 +273,12 @@ img{
     }
 }
 @media only screen and (min-width: 576px) {
-    .navbar-brand .logo span {
-        margin-right: 280px;
-    }
     img{
         margin-left: 30px;
     }
     
 }
 @media only screen and (min-width: 600px) {
-    .navbar-brand .logo span {
-        margin-right: 300px;
-    }
     h1{
         margin-left: 200px;
     }
@@ -291,9 +289,6 @@ img{
 
 }
 @media only screen and (min-width: 640px) {
-    .navbar-brand .logo span {
-        margin-right: 340px;
-    }
     h1{
         margin-left: 220px;
     }
@@ -302,9 +297,6 @@ img{
     }
 }
 @media only screen and (min-width: 680px) {
-    .navbar-brand .logo span {
-        margin-right: 380px;
-    }
     h1{
         margin-left: 240px;
     }
@@ -317,9 +309,6 @@ img{
     }
 }
 @media only screen and (min-width: 740px) {
-    .navbar-brand .logo span {
-        margin-right: 440px;
-    }
     h1{
         margin-left: 280px;
     }
@@ -328,9 +317,6 @@ img{
     }
 }
 @media only screen and (min-width: 820px) {
-    .navbar-brand .logo span {
-        margin-right: 480px;
-    }
     h1{
         margin-left: 320px;
     }
@@ -339,9 +325,6 @@ img{
     }
 }
 @media only screen and (min-width: 900px) {
-    .navbar-brand .logo span {
-        margin-right: 580px;
-    }
     h1{
         margin-left: 340px;
     }
@@ -354,9 +337,6 @@ img{
     }
 }
 @media only screen and (min-width: 980px) {
-    .navbar-brand .logo span {
-        margin-right: 640px;
-    }
     h1{
         margin-left: 360px;
     }
@@ -365,9 +345,9 @@ img{
     }
 }
 @media only screen and (min-width: 1080px) {
-    .navbar-brand .logo span {
+    /* .navbar-brand .logo span {
         margin-right: 740px;
-    }
+    } */
     h1{
         margin-left: 380px;
     }
